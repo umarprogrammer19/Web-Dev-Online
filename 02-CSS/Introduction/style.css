@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+/* Element Selector */
+h1 {
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: red;
+    background-color: black;
+    text-decoration: underline;
+}
+
+/* Class Selector */
+.paragraph-1 {
+    color: white;
+}
+
+.paragraph-2 {
+    color: aqua;
+}
