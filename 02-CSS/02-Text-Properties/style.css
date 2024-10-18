@@ -1,0 +1,72 @@
+/* 
+    rgb => Red Green Blue 
+    value => 1-255
+    0, 0, 0 => Black
+    opacity value = 0.1 - 1
+    color: red;
+    color => Property
+    : colon
+    red => Value
+    ; semi-colon
+*/
+.heading-1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 47, 47, 0.5);
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.para1 {
+    font-size: 30px;
+    /* font-weight Values => 100 - 1000 */
+    font-weight: 600;
+    font-style: italic;
+    /* 
+    text-transform
+    1) uppercase
+    2) lowercase
+    3) capitalize
+    */
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.para2 {
+    line-height: 30px;
+    text-align: justify;
+    color: crimson;
+}
+
+.para2::first-letter {
+    font-size: 50px;
+    color: rgb(81, 255, 0);
+}
+
+.para2::first-line {
+    color: blue;
+}
+
+.para3 {
+    /* Gives Space Between Words */
+    /* word-spacing: 10px; */
+    /* Gives Space Between Letters */
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 5px 5px 5px red;
+}
+
+.para4 {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para4:hover {
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
