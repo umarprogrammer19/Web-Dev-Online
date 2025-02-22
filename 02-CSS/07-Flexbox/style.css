@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 80%;
+    height: 80%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.b1 {
+    background-color: cornflowerblue;
+}
+
+.b2 {
+    background-color: rgb(129, 34, 129);
+}
+
+.b3 {
+    background-color: rgb(28, 98, 25);
+}
