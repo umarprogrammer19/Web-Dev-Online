@@ -77,3 +77,13 @@ nav ul li:first-child {
     border-bottom: 3px solid rgb(255, 0, 0, 0.90);
     width: 8%;
 }
+
+.hero {
+    width: 100vw;
+    height: 350px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
